@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Todo List App in JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="todo.css">
+    <!-- Iconscout Link For Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+  <header>
+    <h1 class="header" align="center">
+        <u>ToDo List</u> <br></h1>
+        <div class="logo"><img src="https://upload.wikimedia.org/wikipedia/commons/7/71/V_logo_noir.png" width="350" height="90"></div>
+    </header>
+  <body>
+    <div class="wrapper">
+      <div class="task-input">
+       
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1XC3FHi1Cwbt5jRr8gmW-h8csbKN5BKOyIQ&usqp=CAU" alt="-">
+        <input type="text" placeholder="Add a new task">
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">All</span>
+          <span id="pending">Pending</span>
+          <span id="completed">Completed</span>
+        </div>
+        <button class="clear-btn">Clear All</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+    <footer>
+      <h1 class="footh2" align="center">
+          <u>Thank_You For Visiting</u> <br></h1>
+      </footer>
+    <script src="todo.js"></script>
+
+  </body>
+</html>
